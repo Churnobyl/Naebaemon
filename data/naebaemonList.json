@@ -1,0 +1,58 @@
+[
+    {
+        "no": 1,
+        "name": "Python",
+        "level": 30,
+        "description": "파이썬은 귀도 반 로섬이 1991년에 발표한 고급 프로그래밍 언어",
+        "type": "Object Oriented Language",
+        "base_stat": {
+            "hp": 69,
+            "mp": 65,
+            "attack": 60,
+            "defense": 25,
+            "s.attack": 35,
+            "speed": 25,
+            "exp": 0,
+            "max_exp": 200
+        },
+        "front_img": "./assets/naebaemon/python_f.png",
+        "back_img": "./assets/naebaemon/python_b.png"
+    },
+    {
+        "no": 2,
+        "name": "SQL",
+        "level": 30,
+        "description": "SQL은 RDBMS의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어",
+        "type": "Domain-specific Programming Language",
+        "base_stat": {
+            "hp": 77,
+            "mp": 65,
+            "attack": 60,
+            "defense": 25,
+            "s.attack": 35,
+            "speed": 25,
+            "exp": 0,
+            "max_exp": 200
+        },
+        "front_img": "./assets/naebaemon/sql_f.png",
+        "back_img": "./assets/naebaemon/sql_b.png"
+    },
+    {
+        "no": 3,
+        "name": "JavaScript",
+        "description": "자바스크립트는 객체 기반의 스크립트 프로그래밍 언어",
+        "level": 30,
+        "base_stat": {
+            "hp": 73,
+            "mp": 65,
+            "attack": 60,
+            "defense": 25,
+            "s.attack": 35,
+            "speed": 25,
+            "exp": 0,
+            "max_exp": 200
+        },
+        "front_img": "./assets/naebaemon/js_f.png",
+        "back_img": "./assets/naebaemon/js_b.png"
+    }
+]

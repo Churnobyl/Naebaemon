@@ -1,0 +1,46 @@
+[
+    {
+        "no": 1,
+        "name": "자책하기",
+        "description": "상대방의 공격력을 떨어뜨린다",
+        "required level": 0,
+        "accuracy": 100,
+        "useMP": 20,
+        "power": 0,
+        "type": "normal",
+        "target": "target"
+    },
+    {
+        "no": 2,
+        "name": "print()",
+        "description": "출력한다",
+        "required level": 0,
+        "accuracy": 90,
+        "useMP": 10,
+        "power": 30,
+        "type": "normal",
+        "target": "target"
+    },
+    {
+        "no": 3,
+        "name": "console.log()",
+        "description": "출력한다",
+        "required level": 0,
+        "accuracy": 85,
+        "useMP": 10,
+        "power": 35,
+        "type": "normal",
+        "target": "target"
+    },
+    {
+        "no": 4,
+        "name": "SELECT * FROM",
+        "description": "출력한다",
+        "required level": 0,
+        "accuracy": 70,
+        "useMP": 10,
+        "power": 60,
+        "type": "normal",
+        "target": "target"
+    }
+]
