@@ -73,13 +73,13 @@ while game_status != 'quit':
 
                     # if potion not left, then return to player turn
                     if player_naebaemon.num_potions == 0:
-                        display_message('남은 에너지 드링크가 없습니다')
+                        display_message('남은 핫식스가 없습니다')
                         time.sleep(2)
                         game_status = 'player turn'
                     else:
                         player_naebaemon.use_potion()
                         display_message(
-                            f'{player_naebaemon.name}는 에너지 드링크를 사용했다')
+                            f'{player_naebaemon.name}는 핫식스를 사용했다')
                         time.sleep(2)
                         game_status = 'rival turn'
 

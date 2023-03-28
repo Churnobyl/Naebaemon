@@ -24,7 +24,7 @@ class ingameObject(pygame.sprite.Sprite):
 
         # set trainer's sprite
         self.file_path = './data/spriteimg.json'
-        with open(self.file_path, 'r') as file:
+        with open(file_path, 'rt', encoding='UTF8') as file:
             self.json = json.load(file)
 
         for name, img_url in self.json.items():
@@ -55,7 +55,7 @@ class Naebaemon(ingameObject):
         # load naebaemon list
         file_path = './data/naebaemonList.json'
 
-        with open(file_path, 'r') as file:
+        with open(file_path, 'rt', encoding='UTF8') as file:
             self.json = json.load(file)
 
         # set level of naebaemon
@@ -158,7 +158,7 @@ class Naebaemon(ingameObject):
         # set trainer's sprite
         self.file_path = './data/naebaemonList.json'
 
-        with open(self.file_path, 'r') as file:
+        with open(self.file_path, 'rt', encoding='UTF8') as file:
             self.json = json.load(file)
 
         for i in self.json:
@@ -226,7 +226,7 @@ class Trainer(ingameObject):
 
         # set trainer's sprite
         file_path = './data/spriteimg.json'
-        with open(file_path, 'r') as file:
+        with open(file_path, 'rt', encoding='UTF8') as file:
             self.json = json.load(file)
 
         for name, img_url in self.json.items():
@@ -259,7 +259,7 @@ class Skill():
 
         # set Skills from skills.json
         file_path = './data/skills.json'
-        with open(file_path, 'r') as file:
+        with open(file_path, 'rt', encoding='UTF8') as file:
             self.json = json.load(file)
 
         self.name = self.json

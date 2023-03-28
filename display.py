@@ -8,13 +8,13 @@ import sys
 # load script
 file_path = './data/scripts.json'
 
-with open(file_path, 'r') as file:
+with open(file_path, 'rt', encoding='UTF8') as file:
     script = json.load(file)
 
 # load naebaemon
 file_path = './data/naebaemonList.json'
 
-with open(file_path, 'r') as file:
+with open(file_path, 'rt', encoding='UTF8') as file:
     naebaemon_list = json.load(file)
 
 
